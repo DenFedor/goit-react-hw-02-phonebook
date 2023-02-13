@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { List, Li, Span, ContactWrap, DeleteBtn } from './ContactList.styled';
+import { List, Li, ContactWrap, DeleteBtn } from './ContactList.styled';
 export const ContactList = ({ contactsArr, onDelete }) => {
   if (contactsArr.length > 0) {
     return (
